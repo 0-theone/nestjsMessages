@@ -93,3 +93,13 @@ How validation works?
 
 tsconfig.json
 - "experimentalDecorators" -> this line of code in this configuration file allows a very small amount of type information to "make it" from the typescript world to the javascript world. 
+
+Services
+- It is a class
+- #1 place to put any business logic
+- Uses one or more repositories to find or store data
+
+Repositories
+- It is a class
+- #1 place to put storage-related logic
+- Usually ends up being a TYpeORM entity, a Mongoose schema or similar
