@@ -75,7 +75,7 @@ Nest is [MIT licensed](LICENSE).
 ## Technical Information
 Automatic Validation
 - Use global validation
-- Class that describes the different properties that the reuqest body should have (DTO)
+- Class that describes the different properties that the request body should have (DTO)
 - Use validation rules in the class
 - Apply class to the request handler
 
