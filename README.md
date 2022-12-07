@@ -90,3 +90,6 @@ How validation works?
 - Use class-transformer to turn the body into an instance of the DTO class
 - Use class-validator to validate the instance
 - If there are validation errors repsond immediately otherwise provide body to request handler. 
+
+tsconfig.json
+- "experimentalDecorators" -> this line of code in this configuration file allows a very small amount of type information to "make it" from the typescript world to the javascript world. 
