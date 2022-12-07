@@ -1,10 +1,10 @@
 import { MessagesRepository } from './messages.repository';
 
-export class MessagesServices {
+export class MessagesService {
     messagesRepo: MessagesRepository;
 
     constructor() {
-        // Servie is creating its own dependencies
+        // Service is creating its own dependencies
         // Dont do this on real apps - temporary!
         this.messagesRepo = new MessagesRepository();
     }
