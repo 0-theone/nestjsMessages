@@ -102,7 +102,7 @@ Services
 Repositories
 - It is a class
 - #1 place to put storage-related logic
-- Usually ends up being a TYpeORM entity, a Mongoose schema or similar
+- Usually ends up being a TypeORM entity, a Mongoose schema or similar
 
 SOLID
 - I -> Inversion of Control Principle: Classes should not create instances of its dependencies on its own
