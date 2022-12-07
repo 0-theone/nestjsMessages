@@ -103,3 +103,17 @@ Repositories
 - It is a class
 - #1 place to put storage-related logic
 - Usually ends up being a TYpeORM entity, a Mongoose schema or similar
+
+SOLID
+- I -> Inversion of Control Principle: Classes should not create instances of its dependencies on its own
+
+Nest Dependency Injection Container/Injector
+- Contains list of classes and their dependencies (list: class1 -> dependencies1, class2 -> dependencies2, and so on...)
+- Contains list of created instances
+
+DI Container Flow
+ - At startup, register all clasees with the container
+ - Container will figure out what each dependency each class has
+ - Ask the container to create an instance of a clas
+ - Container creates all required dependencies and returns the instance
+ - Container will hold onto the created dependency instances and reuse them if needed
