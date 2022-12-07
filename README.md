@@ -80,8 +80,11 @@ Automatic Validation
 - Apply class to the request handler
 
 Packages
-- class-transformer -> s a simple package that takes a plain object and converts it into an instance of a class.
+- class-transformer -> is a simple package that takes a plain object and converts it into an instance of a class.
 link: https://www.npmjs.com/package/class-transformer
+
+- class-validator -> allows use of decorator and non-decorator based validation. Internally uses validator.js to perform validation. Class-validator works on both browser and node.js platforms.
+link: https://www.npmjs.com/package/class-validator
 
 How validation works?
 - Use class-transformer to turn the body into an instance of the DTO class
