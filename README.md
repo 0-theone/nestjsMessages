@@ -71,3 +71,19 @@ Nest is an MIT-licensed open source project. It can grow thanks to the sponsors 
 ## License
 
 Nest is [MIT licensed](LICENSE).
+
+## Technical Information
+Automatic Validation
+- Use global validation
+- Class that describes the different properties that the reuqest body should have (DTO)
+- Use validation rules in the class
+- Apply class to the request handler
+
+Packages
+- class-transformer -> s a simple package that takes a plain object and converts it into an instance of a class.
+link: https://www.npmjs.com/package/class-transformer
+
+How validation works?
+- Use class-transformer to turn the body into an instance of the DTO class
+- Use class-validator to validate the instance
+- If there are validation errors repsond immediately otherwise provide body to request handler. 
