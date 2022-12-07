@@ -117,3 +117,4 @@ DI Container Flow
  - Ask the container to create an instance of a class
  - Container creates all required dependencies and returns the instance
  - Container will hold onto the created dependency instances and reuse them if needed
+ (The payout of all of these DI stuff is shown while writing tests =P)
