@@ -112,8 +112,8 @@ Nest Dependency Injection Container/Injector
 - Contains list of created instances
 
 DI Container Flow
- - At startup, register all clasees with the container
+ - At startup, register all classes with the container
  - Container will figure out what each dependency each class has
- - Ask the container to create an instance of a clas
+ - Ask the container to create an instance of a class
  - Container creates all required dependencies and returns the instance
  - Container will hold onto the created dependency instances and reuse them if needed
